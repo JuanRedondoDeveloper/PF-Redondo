@@ -1,0 +1,22 @@
+@media screen and (max-width:700px){
+      div.nav-items{
+        height: 0;
+        overflow: hidden;
+      }
+      
+      #navegation:target .nav-items{
+        height: 15.8em;
+      }
+      
+      .close{
+        display: none;
+      }
+      
+      #navegation:target .open{
+        display: none;
+      }
+      
+      #navegation:target .close{
+        display: block;
+      }
+      }
